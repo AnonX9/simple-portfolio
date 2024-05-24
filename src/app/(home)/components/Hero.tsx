@@ -1,10 +1,11 @@
 import MagicButton from "@/app/components/magic-button";
+import Title from "@/app/components/title";
 import React from "react";
 import { FaBullhorn } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col-reverse md:flex-row md:justify-between h-[87vh]">
+    <div className="flex flex-col-reverse md:flex-row md:justify-between h-[87vh] md:h-[70vh]">
       <div className="space-y-8 w-full text-center md:text-left">
         <h2 className="font-bold text-4xl lg:text-7xl">
           Nice to meet you! 👋🏾
@@ -15,16 +16,14 @@ export default function Hero() {
           <br />
           building a modern web application that users love.
         </p>
-        <div className="inline-block group">
+        <Title>
           <a
             href="mailto:avaikamarcel@gmail.com"
-            className="text-xl font-bold group-hover:text-green-500"
+            className="text-xl font-bold group-hover:text-green-500 group-hover:cursor-pointer"
           >
             Contact Me 📬
           </a>
-          <div className="w-32 h-2 bg-green-500 rounded-full translate-x-2"></div>
-          <div className="w-32 h-2 bg-indigo-500 rounded-full"></div>
-        </div>
+        </Title>
       </div>
 
       <div className="translate-x-4 md:translate-x-10 xl:-translate-x-10 h-[50%] ">

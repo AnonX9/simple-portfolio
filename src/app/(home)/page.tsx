@@ -1,6 +1,6 @@
-import { GridBackground } from "../components/grid-background";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <div className="w-10/12 max-w-7xl mx-auto h-auto">
         <Navbar />
         <Hero />
+        <Skills />
       </div>
     </div>
   );
