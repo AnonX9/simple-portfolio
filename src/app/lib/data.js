@@ -47,3 +47,30 @@ export const skills = [
     title: "Svelte",
   },
 ];
+
+export const projects = [
+  {
+    title: "Nametissa",
+    image: "projet-1.png",
+    link: "projet-1.png",
+    icons: [FaReact, RiNextjsFill],
+  },
+  {
+    title: "Nametissa",
+    image: "projet-2.png",
+    link: "projet-2.png",
+    icons: [FaReact, RiNextjsFill],
+  },
+  {
+    title: "Nametissa",
+    image: "projet-3.png",
+    link: "projet-1.png",
+    icons: [FaReact, RiNextjsFill],
+  },
+  {
+    title: "Nametissa",
+    image: "projet-4.png",
+    link: "projet-2.png",
+    icons: [FaReact, RiNextjsFill],
+  },
+];

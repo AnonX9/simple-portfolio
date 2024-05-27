@@ -16,10 +16,10 @@ export default function Hero() {
           <br />
           building a modern web application that users love.
         </p>
-        <Title>
+        <Title className="hover:shadow-2xl rounded-xl hover:shadow-indigo-500 inline-block">
           <a
             href="mailto:avaikamarcel@gmail.com"
-            className="text-xl font-bold group-hover:text-green-500 group-hover:cursor-pointer"
+            className=" group-hover:text-green-500 group-hover:cursor-pointer"
           >
             Contact Me 📬
           </a>
