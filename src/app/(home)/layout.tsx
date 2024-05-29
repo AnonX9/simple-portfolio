@@ -6,7 +6,7 @@ import { ThemeProvider } from "../components/theme-provider";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://simple-portfolio.vercel.app/"),
+  metadataBase: new URL("https://simple-portfolio-alpha.vercel.app/"),
 
   title: "Nametissa",
   authors: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nametissa",
     description: "A full stack dev, who loves discovery.",
-    url: "https://simple-portfolio.vercel.app/",
+    url: "https://simple-portfolio-alpha.vercel.app/",
     siteName: "Nametissa",
     images: "/og.png",
     type: "website",
