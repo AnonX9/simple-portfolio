@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
-import "./globals.css";
-import { ThemeProvider } from "./components/theme-provider";
+import "../globals.css";
+import { ThemeProvider } from "../components/theme-provider";
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={spaceGrotesk.className}>
+      <body className={`${spaceGrotesk.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
