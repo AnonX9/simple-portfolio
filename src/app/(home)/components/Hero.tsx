@@ -53,7 +53,7 @@ export default function Hero() {
           </span>
         </MagicButton>
       </div>
-      <div className="glow absolute right-1/2 top-1/4 md:right-[22%] md:top-[42%] lg:right-[20%] xl:top-[38%] xl:right-[22%] scale-50 md:scale-100"></div>
+      <div className="glow absolute right-1/2 top-[3.5%] md:right-[23%] md:top-[10%] scale-50 md:scale-100"></div>
     </div>
   );
 }

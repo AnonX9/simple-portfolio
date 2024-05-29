@@ -6,8 +6,23 @@ import { ThemeProvider } from "../components/theme-provider";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nametissa Portfolio",
-  description: "A fullstack dev who loves dicovery",
+  metadataBase: new URL("https://simple-portfolio.vercel.app/"),
+
+  title: "Nametissa",
+  authors: {
+    name: "AnonX9",
+  },
+
+  description: "A full stack dev, who loves discovery.",
+  openGraph: {
+    title: "Nametissa",
+    description: "A full stack dev, who loves discovery.",
+    url: "https://simple-portfolio.vercel.app/",
+    siteName: "Nametissa",
+    images: "/og.png",
+    type: "website",
+  },
+  keywords: ["portfolio", "nametissa", "avaika", "nextjs"],
 };
 
 export default function RootLayout({

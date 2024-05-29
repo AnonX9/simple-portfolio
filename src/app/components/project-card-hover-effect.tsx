@@ -11,6 +11,7 @@ export const ProjectHoverEffect = ({
   items: {
     title: string;
     image: string;
+    link: string;
     icons: IconType[];
   }[];
   className?: string;
@@ -52,6 +53,7 @@ export const ProjectHoverEffect = ({
             title={item.title}
             image={item.image}
             icons={item.icons}
+            link={item.link}
           />
         </div>
       ))}
