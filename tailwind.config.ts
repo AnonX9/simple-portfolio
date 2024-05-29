@@ -23,10 +23,27 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      animation: {
-        shimmer: "shimmer 2s linear infinite",
-      },
       keyframes: {
+        "move-up": {
+          from: {
+            transform: "translateY(10px)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateY(0px)",
+            opacity: "1",
+          },
+        },
+        "move-down": {
+          from: {
+            transform: "translateY(-10px)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateY(0px)",
+            opacity: "1",
+          },
+        },
         shimmer: {
           from: {
             backgroundPosition: "0 0",
@@ -35,6 +52,11 @@ const config: Config = {
             backgroundPosition: "-200% 0",
           },
         },
+      },
+      animation: {
+        shimmer: "shimmer 2s linear infinite",
+        "move-up": "move-up 1s linear forwards",
+        "move-down": "move-down 1.5s linear forwards",
       },
     },
   },
