@@ -46,3 +46,12 @@ html,
 body {
   @apply no-scrollbar;
 }
+
+.glow {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  box-shadow:
+    50px 0 200px 130px #22c55e,
+    -50px 0 200px 130px #6366f1;
+}

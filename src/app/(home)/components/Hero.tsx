@@ -9,7 +9,11 @@ export default function Hero() {
       <div className="space-y-8 w-full text-center md:text-left">
         <h2 className="font-bold text-4xl lg:text-7xl">
           Nice to meet you! 👋🏾
-          <br /> I&apos;m Nametissa
+          <br />{" "}
+          <span className="underline underline-offset-8 decoration-green-500">
+            I&apos;m Nametissa
+          </span>
+          <span className="text-5xl lg:text-8xl text-indigo-500">.</span>
         </h2>
         <p>
           Based in Cameroon, I&apos;m a Fullstack developer passionate about{" "}
@@ -26,7 +30,7 @@ export default function Hero() {
         </Title>
       </div>
 
-      <div className="translate-x-4 md:translate-x-10 xl:-translate-x-10 h-[50%] ">
+      <div className="translate-x-4 md:translate-x-10 xl:-translate-x-10 h-[50%] relative z-20">
         <div className="flex justify-center items-center md:items-start scale-50 md:scale-[0.85] lg:scale-100">
           <div className="-rotate-[25deg]">
             <div className="space-y-4 -space-x-8">
@@ -43,11 +47,13 @@ export default function Hero() {
         </div>
 
         <MagicButton className="-translate-y-20 flex justify-center -translate-x-4 md:justify-start lg:-translate-x-20 ">
-          <span className="flex gap-2 items-center">
-            <FaBullhorn className="text-indigo-300" /> Available for Work
+          <span className="flex gap-4 items-center">
+            <FaBullhorn className="text-green-300 scale-150 -rotate-6" />{" "}
+            Available for Work
           </span>
         </MagicButton>
       </div>
+      <div className="glow absolute right-1/2 top-1/4 md:right-[22%] md:top-[42%] lg:right-[20%] xl:top-[38%] xl:right-[22%] scale-50 md:scale-100"></div>
     </div>
   );
 }
