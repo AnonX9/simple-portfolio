@@ -4,7 +4,7 @@ import Title from "@/app/components/title";
 import React from "react";
 import { projects } from "../../lib/data";
 import { cn } from "@/app/utils/cn";
-import { ProjectCard } from "../../components/project-card";
+import ProjectCard from "@/app/components/project-card";
 
 export default function Projects() {
   return (

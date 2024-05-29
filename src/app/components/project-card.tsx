@@ -6,7 +6,7 @@ import { CardBody, CardContainer, CardItem } from "./3d-card";
 import Link from "next/link";
 import { IconType } from "react-icons";
 
-export function ProjectCard({
+export default function ProjectCard({
   title,
   image,
   link,
